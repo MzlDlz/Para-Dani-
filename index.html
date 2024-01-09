@@ -10,7 +10,7 @@
         * {
             margin: 0;
             padding: 0;
-            background-color: whitesmoke;
+            background-color: #e9c7ff;
             font-family: 'Comic Neue', cursive;
         }
         
@@ -44,7 +44,7 @@
         .loading-box {
             height: var(--loading-heigth);
             width: var(--loading-width);
-            background-color: rgb(172, 83, 255);
+            background-color: #B695C0;
             /* background-color: aliceblue; */
             /* animation: loading 5s delay iteration-count direction fill-mode;; */
             animation: loading 5s;
@@ -84,19 +84,20 @@
 
 <body>
     <main>
-        <h1 id="title">Enviando abrazo virtual</h1>
+        <h1 id="title"><sup>♡</sup>🎀¡Aqui Espera tu Abrazoteeeee Guapa!🎀<sub>♡</sub></h1>
         <div>
             <img id="me" src="penguin.svg" alt="">
         </div>
         <div class="box">
             <div class="loading-box"></div>
         </div>
-        <h3 id="state-message">cargando...</h3>
+        <h1 id="state-message"><sub>♡</sub> Un Segundo Cofis <sub>♡</sub></h3>
         <h2 id="result">&nbsp;</h2>
+       
         <script>
             setTimeout(function() {
                 const message = document.getElementById('result');
-                message.innerHTML = "Abrazo enviado!"
+                message.innerHTML = "♡Abrazo Recien Horneado Para Tiii!♡"
             }, 6200);
             setTimeout(function() {
                 const message = document.getElementById('state-message');
